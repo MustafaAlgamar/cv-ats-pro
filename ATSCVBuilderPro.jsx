@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback, createContext, useContext } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import analyzeATS from "./atsEngine";
 
 // ============================================================
 // GLOBAL STYLES
